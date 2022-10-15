@@ -1,0 +1,22 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 48px;
+}
+
+@media (max-width: 540px) {
+  h1 {
+    font-size: 36px;
+  }
+}

@@ -1,0 +1,31 @@
+.child {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #395eba;
+  width: 450px;
+  height: 150px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.child input {
+  height: 40px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #e6e5e5;
+  outline: #e6e5e5;
+}
+
+@media (max-width: 540px) {
+  .child {
+    width: 85vw;
+  }
+}
